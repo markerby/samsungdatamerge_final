@@ -1,7 +1,3 @@
----
-title: "CodeBook.md"
-output: html_document
----
 
 This Code Book describes the variables, Samsung data and the transformations of
 that data to produce a tidy data set.
