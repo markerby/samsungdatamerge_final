@@ -69,49 +69,56 @@ tidy data set will join these activity Ids to the raw datasets.
 The final tidy data set summarised_samsung_data.txt includes the following
 variables:
 
-* subject_id - Whole number between 1 and 30 - idenitifes the subject Id for
-whom the observations were recorded.
+## subject_id
+Whole number between 1 and 30 - idenitifes the subject Id for whom the 
+observations were recorded.
 
-* activity_label - String - descriptive name for the acitivity for which the 
-observation was recorded.
-
-* feature - String - specifies the feature for which the mean() or std() value was
+## activity_label
+String - descriptive name for the acitivity for which the  observation was
 recorded.
-    * Variables with BodyAcc refere to Body linear acceleration measurements.
-    * Variables with Gyro are angular velocity measurements.
-    * Variables with Jerk are Jerk signals.
-    * Variables with Mag are magnitude of the 3-D measurements.
+
+## feature
+String - specifies the feature for which the mean() or std() value was
+recorded.
+
+* Variables with BodyAcc refere to Body linear acceleration measurements.
+* Variables with Gyro are angular velocity measurements.
+* Variables with Jerk are Jerk signals.
+* Variables with Mag are magnitude of the 3-D measurements.
 
 Time domain signals (prefixed with "t"): UNITS - seconds
-    * tBodyAcc - X,Y,Z
-    * tBodyAccJerk - X,Y,Z
-    * tBodyAccJerkMag
-    * tBodyAccMag
-    * tBodyGyro - X,Y,Z
-    * tBodyGyroJerk - X,Y,Z
-    * tBodyGyroJerkMag
-    * tBodyGyroMag 
-    * tGravityAcc - X,Y,Z
-    * tGravityAccMag
+* tBodyAcc - X,Y,Z
+* tBodyAccJerk - X,Y,Z
+* tBodyAccJerkMag
+* tBodyAccMag
+* tBodyGyro - X,Y,Z
+* tBodyGyroJerk - X,Y,Z
+* tBodyGyroJerkMag
+* tBodyGyroMag 
+* tGravityAcc - X,Y,Z
+* tGravityAccMag
 
 Frequency signals (prefixed by "f") - UNITS: NONE
-    * fBodyAcc - X,Y,Z 
-    * fBodyAccJerk - X,Y,Z
-    * fBodyAccMag
-    * fBodyBodyAccJerkMag
-    * fBodyGyro - X,Y,Z
-    * fBodyBodyGyroJerkMag
-    * fBodyBodyGyroMag
+* fBodyAcc - X,Y,Z 
+* fBodyAccJerk - X,Y,Z
+* fBodyAccMag
+* fBodyBodyAccJerkMag
+* fBodyGyro - X,Y,Z
+* fBodyBodyGyroJerkMag
+* fBodyBodyGyroMag
     
 
-* axis - String - specifies the axis, X Y or Z, for which the observation was
+## axis
+String - specifies the axis, X Y or Z, for which the observation was
 recorded. If it is NA, then the feature measurement did not involve measuring
 a specific axis.
 
-* mean_of_means() - the mean of the mean() values which were recorded for the
+## mean_of_means()
+Floating point - the mean of the mean() values which were recorded for the
 observations.
 
-* mean_of_stds() - the mean of the standard deviations (std()) which were recorded
+## mean_of_stds()
+Floating point - the mean of the standard deviations (std()) which were recorded
 for the observations.
 
 
