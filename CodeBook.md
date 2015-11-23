@@ -82,26 +82,26 @@ recorded.
     * Variables with Jerk are Jerk signals.
     * Variables with Mag are magnitude of the 3-D measurements.
 
-    Time domain signals (prefixed with "t"): UNITS - seconds
-        * tBodyAcc - X,Y,Z
-        * tBodyAccJerk - X,Y,Z
-        * tBodyAccJerkMag
-        * tBodyAccMag
-        * tBodyGyro - X,Y,Z
-        * tBodyGyroJerk - X,Y,Z
-        * tBodyGyroJerkMag
-        * tBodyGyroMag 
-        * tGravityAcc - X,Y,Z
-        * tGravityAccMag
+Time domain signals (prefixed with "t"): UNITS - seconds
+    * tBodyAcc - X,Y,Z
+    * tBodyAccJerk - X,Y,Z
+    * tBodyAccJerkMag
+    * tBodyAccMag
+    * tBodyGyro - X,Y,Z
+    * tBodyGyroJerk - X,Y,Z
+    * tBodyGyroJerkMag
+    * tBodyGyroMag 
+    * tGravityAcc - X,Y,Z
+    * tGravityAccMag
 
-    Frequency signals (prefixed by "f") - UNITS: NONE
-        * fBodyAcc - X,Y,Z 
-        * fBodyAccJerk - X,Y,Z
-        * fBodyAccMag
-        * fBodyBodyAccJerkMag
-        * fBodyGyro - X,Y,Z
-        * fBodyBodyGyroJerkMag
-        * fBodyBodyGyroMag
+Frequency signals (prefixed by "f") - UNITS: NONE
+    * fBodyAcc - X,Y,Z 
+    * fBodyAccJerk - X,Y,Z
+    * fBodyAccMag
+    * fBodyBodyAccJerkMag
+    * fBodyGyro - X,Y,Z
+    * fBodyBodyGyroJerkMag
+    * fBodyBodyGyroMag
     
 
 * axis - String - specifies the axis, X Y or Z, for which the observation was
